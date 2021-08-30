@@ -8,9 +8,9 @@ namespace ExtenssionMethodDemo
         {
             if(value.Length>0)
             {
-                char[] arr = value.ToCharArray();
-                arr[0] = char.ToUpper(arr[0]);
-                return new string(arr);
+                char[] array = value.ToCharArray();
+                array[0] = char.ToUpper(array[0]);
+                return new string(array);
             }
             return value;
         }
